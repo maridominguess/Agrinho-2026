@@ -1,81 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte, Futuro Sustentável</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f9f4;
-    color: #333;
-    line-height: 1.6;
-}
+<body>
 
-header {
-    background-color: #2e7d32;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
+<header>
+<h1>🌱 Agro Forte, Futuro Sustentável</h1>
+<p>Equilíbrio entre produção agrícola e preservação ambiental</p>
+</header>
 
-nav {
-    background-color: #1b5e20;
-}
+<nav>
+<ul>
+<li><a href="#">Início</a></li>
+<li><a href="#">Sustentabilidade</a></li>
+<li><a href="#">Tecnologia</a></li>
+<li><a href="#">Meio Ambiente</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+</nav>
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
+<main>
 
-nav li {
-    margin: 15px;
-}
+<section class="card">
+<h2>🌾 Agricultura Sustentável</h2>
+<p>A agricultura sustentável busca aumentar a produção de alimentos sem comprometer os recursos naturais.</p>
+</section>
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+<section class="card">
+<h2>🚜 Tecnologia no Campo</h2>
+<p>Drones, sensores e inteligência artificial ajudam a tornar a produção mais eficiente.</p>
+</section>
 
-main {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-}
+<section class="card">
+<h2>🌎 Preservação Ambiental</h2>
+<p>A conservação do solo, da água e da biodiversidade garante um futuro sustentável.</p>
+</section>
 
-section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-}
+</main>
 
-h2 {
-    color: #2e7d32;
-    margin-bottom: 10px;
-}
+<footer>
+<p>Projeto Educativo • 2026</p>
+</footer>
 
-footer {
-    background-color: #1b5e20;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-/* Responsividade para celular */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header {
-        padding: 20px;
-    }
-
-    section {
-        margin: 10px;
-    }
-}
+</body>
+</html>
